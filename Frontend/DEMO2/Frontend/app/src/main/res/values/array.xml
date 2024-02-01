@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="user_options">
+        <item>Buyer</item>
+        <item>Seller</item>
+        <item>Sitter</item>
+    </string-array>
+    <string-array name="sort_options">
+        <item> </item>
+        <item>breed</item>
+        <item>age</item>
+        <item>name</item>
+    </string-array>
+
+
+</resources>

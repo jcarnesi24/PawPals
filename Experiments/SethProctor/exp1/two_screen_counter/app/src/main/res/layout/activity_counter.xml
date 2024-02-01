@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EA0E0E"
+    android:backgroundTint="#B61E1E"
+    android:rotationX="4"
+    tools:context=".CounterActivity">
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="205dp"
+        android:layout_height="118dp"
+        android:fontFamily="cursive"
+        android:text="0"
+        android:textSize="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <Button
+        android:id="@+id/increaseBtn"
+        android:layout_width="188dp"
+        android:layout_height="148dp"
+        android:background="#1C1616"
+        android:fontFamily="monospace"
+        android:foregroundTint="#ECE3E3"
+        android:text="Increase"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0C0C0C"
+        android:textSize="24sp"
+        app:iconTint="#8A5757"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/number"
+        app:layout_constraintVertical_bias="0.436"
+        app:rippleColor="#DFD2D2" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="222dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="64dp"
+        android:background="#c502d6"
+        android:text="Back to Main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/megaBtn" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="394dp"
+        android:layout_height="190dp"
+        android:fontFamily="serif"
+        android:text="Awesome Game"
+        android:textColor="#F3EBEB"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/megaBtn"
+        android:layout_width="112dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="130dp"
+        android:text="Mega"
+        app:layout_constraintBottom_toTopOf="@+id/backBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/increaseBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <!-- Login Activity -->
+    <string name="login_email">email-Id</string>
+    <string name="login_password">password</string>
+    <string name="login_login">login</string>
+    <string name="login_sign_up">sign up</string>
+
+    <string name="image_description">Some Nice Description goes here</string>
+
+    <string name="app_name">coms309</string>
+    <string name="title_activity_main">LoginActivity</string>
+    <string name="fragment_text">Press this to send dummy request</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="sign_up_text">Sign me up</string>
+    <string name="back">Go Back</string>
+
+</resources>
