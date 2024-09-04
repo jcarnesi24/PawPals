@@ -1,46 +1,45 @@
-# TA_124
+# PawPals
 
 
 
-## Getting started
+## Background
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+I created PawPals as a member of a 4-person team for COM S 309, Distributed Development of Software, at Iowa State University. 
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+The class was structured to teach students best practices in software development in the most effective way: by doing it! The classwork consisted of developing the 
+frontend and backend of a functional Android mobile app from scratch over the course of the semester.
 
-## Add your files
+## What is PawPals?
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+PawPals was conceived as "Tinder for dogs." PawPals is a way for pet enthusiasts to connect with each other to buy, adopt, or sell pets and find the right sitter for
+their furry friend if the need arises. It adopts the intuitive swiping interface of dating apps like Tinder to connect people to the pets they would like to provide a home for 
+or sitters they want to hire. 
 
-```
-cd existing_repo
-git remote add origin https://git.las.iastate.edu/cs309/fall2023/ta_124.git
-git branch -M main
-git push -uf origin main
-```
+## How does it work?
 
-## Integrate with your tools
+The basic design of PawPals is familiar to any mobile developer. Users have an account with at least one profile type. Profile types correspond to their role. 
 
-- [ ] [Set up project integrations](https://git.las.iastate.edu/cs309/fall2023/ta_124/-/settings/integrations)
+- A buyer profile is able to swipe on sitters or pets and initiate a conversation to solicit their service.
+- A seller profile lets the user put their pets up for sale or adoption.
+- A sitter profile adds the user to the list of possible sitters.
 
-## Collaborate with your team
+The frontend guides the user through profile addition and subtraction, pet addition or deletion for sellers, changing account settings, a chat interface, 
+and, of course, a filtered swiping interface.
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+The backend supports all of those features and stores the information on an Apache Linux server system. For the project, we used a VM hosted by Iowa State.
+The frontend and backend are connected using the REST API.
 
-## Test and Deploy
+## My Role
 
-Use the built-in continuous integration in GitLab.
+I worked as one of the two back end developers, a tester, and as an organizer.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+## Development Tools
+
+- PawPals was developed using Iowa State's GitLab system, including CI/CD tools.
+- The backend was developed using IntelliJ IDE.
+- The frontend development and app testing were developed in Android Studio.
+- Postman was used to test the API before integration.
+- The backend is based on the SpringBoot framework.
 
 ***
 
@@ -53,6 +52,7 @@ Every project is different, so consider which of these sections apply to yours. 
 
 ## Name
 Choose a self-explaining name for your project.
+- [ ] PawPals
 
 ## Description
 Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
